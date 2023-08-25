@@ -1,6 +1,19 @@
 <div class="table-wrapper">
   <table>
+    <thead>
+      <tr>
+        <th colspan="6">Users' data</th>
+      </tr>
+    </thead>
     <tbody>
+      <tr class="columns">
+        <td>ID</td>
+        <td>Name</td>
+        <td>Email</td>
+        <td>Address</td>
+        <td>Phone</td>
+        <td>Website</td>
+      </tr>
       <tr *ngFor="let user of users">
         <td>{{ user.id }}</td>
         <td>{{ user.name }}</td>

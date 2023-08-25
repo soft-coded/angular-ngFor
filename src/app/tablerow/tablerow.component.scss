@@ -1,0 +1,28 @@
+$cell-spacing: var(--spacing-mid);
+
+.table-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #eaeaea;
+
+  th {
+    padding: $cell-spacing;
+    background-color: #3a3a3a;
+    color: #d7d7d7;
+    border: 1px solid #3a3a3a;
+  }
+
+  td {
+    border: 1px solid #3a3a3a;
+    color: #3a3a3a;
+    padding: $cell-spacing;
+  }
+}
