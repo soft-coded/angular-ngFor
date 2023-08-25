@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TablerowComponent } from './tablerow/tablerow.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TablerowComponent
   ],
   imports: [
     BrowserModule,
